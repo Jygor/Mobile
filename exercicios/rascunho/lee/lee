@@ -1,0 +1,46 @@
+<View style={{flexDirection: 'row', marginTop:30}}>
+<View style={style.box}>
+    <Image style={style.Foto2}
+        source={require('../../assets/Icon.png')}
+    />
+        <Text style={style.txt2}> Ranqueada </Text>
+</View>
+<View style={style.box}>
+    <Image style={style.Foto2}
+        source={require('../../assets/Icon2.png')}
+    />
+    <Text style={style.txt2}> Duelo 1x1 </Text>
+</View>
+<View style={style.box}>
+    <Image style={style.Foto2}
+    source={require('../../assets/Icon3.png')}
+    />
+    <Text style={style.txt2}> Diversão </Text>
+</View>    
+<View style={style.box}></View>
+
+box:{
+    height: 120,
+    width: 104,
+    backgroundColor: "#1D2766",
+    borderRadius: 8,
+    margin: 6,
+    flexDirection: 'column',
+    justifyContent: 'center',
+    alignItems: 'center',
+
+},
+txt2:{
+    color: '#FAFAF8',
+    fontSize: 17,
+    textAlign: 'center',
+    marginBottom: 7
+
+},
+
+Foto2:{
+    flex:1,
+    resizeMode: 'contain',
+    width: 48,
+    height: 48
+},
